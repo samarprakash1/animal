@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbarContainer{
+    background-color: #fc436b;
+    width: 100%;
+   
+}
+
+.nav{
+    width: 55%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+    line-height: 2.3rem;
+}
+.nav a:hover{
+    color: pink;
+}
+.header{
+    width: 55%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 45px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #dcdcdc;
+
+}
+.header h2{
+color: rgb(90, 89, 89);
+}
+.header a{
+text-decoration: none;
+margin-left: 20px;
+color: rgb(90, 89, 89);
+}
+
+.header a:hover{
+    text-decoration: underline;
+    color: hotpink;
+}
+.para{
+    width: 55%;
+    margin: 50px auto;
+    text-align: center;
+}
+.para h1{
+ font-weight: 700;
+ color: rgb(90, 89, 89);
+}
+
+.para p{
+    margin-top: 20px;
+    font-size: 35px;
+    color: rgb(90, 89, 89);
+    font-weight: 100;
+
+
+
+}
+.image{
+    width: 55%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.image img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #fc436b;
+
+}
+.image p{
+    text-align: center;
+    margin-top: 5px;
+}
+
+.content {
+    width: 55%;
+    margin:50px auto;
+    text-align: center;
+    color: rgb(90, 89, 89);
+    line-height: 1.4rem;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #dcdcdc;
+
+}
+.foot h1{
+    text-align: center;
+    color: rgb(90, 89, 89);
+
+}
+
+.partone{
+    width: 55%;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.partone i{
+    font-size: 40px;
+    color: rgb(90, 89, 89);
+
+
+}
+.partone p{
+    margin-top: 20px;
+    color: rgb(90, 89, 89);
+
+}
+.partone a{
+    display: block;
+    margin-top: 3px;
+    line-height: 1.3rem ;
+    text-decoration: none;
+    color: rgb(90, 89, 89);
+    font-size: 13px;
+
+}
+.partone a:hover{
+text-decoration: underline;
+color: hotpink;
+}
+.partone{
+    border-bottom: 1px solid ;
+    color: rgb(170, 170, 170);
+    padding-bottom: 30px;
+
+}
